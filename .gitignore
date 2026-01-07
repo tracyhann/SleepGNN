@@ -1,6 +1,8 @@
 # Ignore all contents under these directories (but keep the folder itself if committed)
 data/294_Overlapping/**
+!data/294_Overlapping .gitkeep
 graphs/*/*
+!graphs/.gitkeep
 # Model weights
 models/1118_294_bs4_con0.1/**/*.pt
 
