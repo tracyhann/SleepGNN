@@ -1,0 +1,9 @@
+# Ignore all contents under these directories (but keep the folder itself if committed)
+data/294_Overlapping/**
+graphs/**
+# Model weights
+models/1118_294_bs4_con0.1
+
+# Ignore these specific files
+download_box.py
+download_from_box.py
