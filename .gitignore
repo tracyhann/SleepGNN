@@ -1,9 +1,11 @@
 # Ignore all contents under these directories (but keep the folder itself if committed)
-data/294_Overlapping/**
-graphs/**
+data/294_Overlapping/*
+graphs/*
 # Model weights
-models/1118_294_bs4_con0.1
+models/1118_294_bs4_con0.1/*/*.pt
 
 # Ignore these specific files
 download_box.py
 download_from_box.py
+data/splits/TEST_SUBS_rand42.txt
+data/splits/TRAIN_SUBS_rand42.txt
